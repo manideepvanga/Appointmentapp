@@ -1,0 +1,32 @@
+* {
+  font-family: Roboto;
+}
+.listitemcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border: 1px solid grey;
+  padding: 0px 10px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.itemcontent {
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
+  cursor: pointer;
+}
+.starbutton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.name {
+  color: #171f46;
+  font-weight: 600;
+}
+.date {
+  color: #b5b7c4;
+}
